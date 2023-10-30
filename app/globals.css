@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.pointer {
+  cursor: pointer;
+}
+.navigation-shadow {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.line {
+  text-decoration: line-through;
+}
+.likeBtn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-color: #ccc;
+}
+.dashbaord {
+  display: flex;
+}
+
+.dashbaord nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  /* border-right: 2px solid #ccc; */
+  font-weight: 600;
+  height: 350px;
+}
+.dashbaord .dashNav {
+  height: 550px;
+  display: flex;
+  align-items: center;
+}
+.align-middle {
+  text-align: center;
+}
+.capital {
+  text-transform: capitalize;
+}
+.adminNav {
+  gap: 40px;
+  align-items: center;
+  margin-right: 30px;
+}
+.display-flex {
+  display: flex;
+}
+.phone {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin-left: 50px;
+  /* margin: auto; */
+}
+.phone div {
+  flex: 1;
+}
